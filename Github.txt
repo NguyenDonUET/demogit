@@ -1,0 +1,67 @@
+# Để start dùng git trên laptop cần nhập email và user name:
+git config --global user.name "your_username"
+git config --global user.email "your_email_address@example.com"
+// Check config
+git config --global --list
+
+# Clone a repository : lấy file trên remote repos về máy and connections created
+git clone link_đến_project
+
+
+#####    Đã CODE xong đẩy code lên remote repos:
+git init
+// kết nối 2 kho
+git remote add origin git@gitlab.com:username/projectpath.git
+// check kết nối:
+git remote -v
+// Xóa kết nối : git remote remove origin
+
+git branch -M main
+
+ git push --set-upstream orign main
+
+git add .
+git commit -m "comment here"
+git push 
+
+# Tình trạng kho local có file nào thay đổi ko ?   git status
+
+
+# Người B sửa trùng file vs A: rejected
+-> git pull // lấy all code mới về
+. Mới vào dự án sẽ cần pull code về máy
+
+mf1260-NguyenDonUET
+
+### Tạo branch mới để tự code feature riêng (ngoài maim)
+git checkout -b tên_nhánh
+git branch // kiểm tra nhánh 
+
+// chuyển sang branch đã có : git checkout main 
+
+// xóa branch
+ git branch -d <branch_name>
+
+// Đẩy branch lên github
+ git push --set-upstream origin new_branch
+
+// đưa file từ stagging ---> working
+git restore --staged fileName 
+
+
++ Merge branches:
+// merge vào main
+git merge say_Hi
+
+
++ Merge requests : 
+git branch -D name_branch // xóa nhánh cũ trên local
+
+# PULL REQUEST
+- Pull Request là một đặc trưng cho Branch Workflow
+- Sau khi tạo branch và code tính năng xong thì tb cho các tv khác muốn merge code và 
+main branch
+
+
+
+

@@ -1,0 +1,21 @@
+
+1> git status in current directory only
+	git status .
+Zsh	git status *(.)
+	git status ':(glob)*'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

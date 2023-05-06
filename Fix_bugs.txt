@@ -1,4 +1,6 @@
 
 1. rejected master -> master (non-fast-forward)
 > Muốn push nhanh:     git push -f origin master
+
+
 > Nên git pull before git push

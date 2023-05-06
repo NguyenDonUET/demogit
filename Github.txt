@@ -3,7 +3,7 @@
 git config --global user.name "your_username"
 git config --global user.email "your_email_address@example.com"
 // Check config
-git config --global --list
+     git config --global --list
 
 # Clone a repository : lấy file trên remote repos về máy and connections created
      git clone link_đến_project
